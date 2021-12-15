@@ -1,0 +1,41 @@
+Docker Container
+
+
+1. docker version
+
+2. docker info
+3. docker container ls
+4. docker container ls -a
+5. docker container run --publish 80:80 --detach --name webhost nginx
+6. docker container logs webhost
+7. docker container top webhost
+8. docker container stop webhost
+9. docker container rm webhost
+10.docker container run --name mysql --detach --publish 3036:3036 --env MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
+11. docker container inspect mysql
+12. docker container stats mysql
+13. docker container run -it mysql
+14. docker container exec -it mysql
+15. docker container start -ai mysql
+16. docker container port mysql
+17. docker container inspect --format '{{ .NetworkSettings.IPAddress }}' mysql
+18. docker network ls
+19. docker network inspect bridge
+20. docker network create new_net
+21. docker container run --name myss6 --detach --network hi nginx
+22. docker network connect hi myss5
+23. docker network disconnect hi myss5
+24. docker container run --name myss66 --detach --network hi nginx
+25.  docker container exec -it myss6 ping myss66
+26. docker container stop $(docker container ls -a -q --filter name=my*)
+
+27. docker image ls
+28. docker image pull nginx:latest
+29. docker image inspect nginx
+30. docker image tag --help
+31. docker image nginx rsrohan/nginx
+32. docker login
+33. docker image push rsrohan/nginx
+34. docker im
+34. docker image push rsrohan/nginx:testing
+35. docker image build -t rohan_nginx .
