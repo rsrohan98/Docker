@@ -19,7 +19,7 @@
 * docker container run -d -p 8080:80 --name tiger_web ngnix
 * docker container exec -it <container_id> /bin/bash
 * docker container rename <container_id>  new_name
-* 
+
 * docker container kill  <container_id>
 * docker container wait <container_id>
 * docker container pause <container_id>
