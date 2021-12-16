@@ -1,0 +1,6 @@
+# Traditional vs. New-Generation Virtualization
+
+Earlier, we used to create virtual machines, and each VM had an OS which took a lot of space and made it heavy.
+
+Now in docker container’s case, you have a single OS, and the resources are shared between the containers. Hence it is lightweight and boots in seconds.
+
