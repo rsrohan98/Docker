@@ -1,3 +1,5 @@
+# Commands
+
 * docker container ls
 * docker container ls -a
 * docker container run --name <name of contianer> ngnix 
@@ -17,7 +19,7 @@
 * docker container run -d -p 8080:80 --name tiger_web ngnix
 * docker container exec -it <container_id> /bin/bash
 * docker container rename <container_id>  new_name
-* 
+
 * docker container kill  <container_id>
 * docker container wait <container_id>
 * docker container pause <container_id>
@@ -35,8 +37,9 @@ docker image import my_file.tar my_image_name
 
 docker conatiner commit <container_id> <new_image_name_to_be_created> (Creating Image from running container)
 
+
 ====================================
-Docker File Instructions:
+## Docker File Instructions:
 
 https://www.fosstechnix.com/dockerfile-instructions/
 
