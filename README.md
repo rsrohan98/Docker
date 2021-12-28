@@ -183,6 +183,29 @@ wehen you delete container with -v flag , anonymus volumne also get deleted but 
 
 docker rm -fv <contianer name>
 
+Sample Volumne in Compose File:
+    
+    version: '3'
+    
+services:
+    
+  web:
+    
+    container_name: nginx1
+    
+    ports:
+    
+      - "8080:80"
+    
+    volumes:
+    
+      - "vol2:/usr/share/nginx/html"
+    
+    image: nginx
+    
+volumes:
+    
+  vol2:
 
 
 =======================================
