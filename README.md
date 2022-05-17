@@ -253,5 +253,5 @@ services:
 --> ENTRY POINTS in new_docker_compose_file
 
 --> CMD vs ENTRYPOINT
-https://www.bmc.com/blogs/docker-cmd-vs-entrypoint/#
+https://phoenixnap.com/kb/docker-cmd-vs-entrypoint
 
